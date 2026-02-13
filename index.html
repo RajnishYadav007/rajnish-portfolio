@@ -2,12 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rajnish-portfolio</title>
+    <title>Rajnish Yadav | 3D Portfolio</title>
+    <meta name="description" content="Interactive anime-style 3D portfolio of Rajnish Yadav, React Developer." />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+        }
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="loading-screen" aria-live="polite">
+      <h1>Loading 3D World...</h1>
+      <p id="loading-status">Preparing cinematic scene</p>
+      <div class="loader-bar"><span id="loader-fill"></span></div>
+    </div>
+
+    <canvas id="scene" aria-label="Interactive 3D portfolio scene"></canvas>
+
+    <aside class="hud">
+      <p id="zone-indicator">Zone: Intro</p>
+      <div class="progress-wrap" aria-label="Portfolio progress">
+        <div id="progress-line"></div>
+        <div id="progress-dots" class="dots"></div>
+      </div>
+      <p class="scroll-hint">Scroll to move through the world · Drag to rotate camera</p>
+    </aside>
+
+    <main id="panel-root" class="panel-root" aria-live="polite"></main>
+
+    <script type="module" src="./script.js"></script>
   </body>
 </html>

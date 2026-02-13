@@ -1,0 +1,98 @@
+{
+  "personal": {
+    "name": "Rajnish Yadav",
+    "title": "React Developer | Frontend Engineer",
+    "avatar": "",
+    "bio": [
+      "Frontend engineer focused on production-ready React interfaces.",
+      "Built hotel POS and ecommerce products with API-driven architecture.",
+      "Comfortable with deployment pipelines, maintainable component systems, and UI performance optimization."
+    ],
+    "stats": [
+      "2+ Years Experience",
+      "2 Production Projects",
+      "React + API Specialist"
+    ]
+  },
+  "experience": [
+    {
+      "title": "React Developer Intern",
+      "company": "Genkaix",
+      "period": "2025 (3 Months)",
+      "description": "Developed hotel management POS modules including order flow, billing UI, and admin dashboard; integrated REST APIs and Supabase data workflows."
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "NullClass Pvt Ltd",
+      "period": "Oct 2022 – Mar 2023",
+      "description": "Built reusable React UI components, connected API data pipelines, and delivered responsive interfaces via GitHub-based collaboration."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tasty Station",
+      "description": "Hotel POS system focused on real-time operations, billing clarity, and dashboard usability for restaurant teams.",
+      "emoji": "🍽️",
+      "tags": ["React", "Tailwind", "REST API", "Supabase", "Vercel"],
+      "gradient": "linear-gradient(135deg,#22d3ee,#818cf8)"
+    },
+    {
+      "name": "SHREEJEE",
+      "description": "E-commerce frontend with responsive shopping flow, modern design system, and performance-oriented rendering.",
+      "emoji": "🛒",
+      "tags": ["React", "Tailwind", "REST API", "Vercel"],
+      "gradient": "linear-gradient(135deg,#60a5fa,#c084fc)"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "React.js", "level": 92 },
+        { "name": "JavaScript (ES6+)", "level": 88 },
+        { "name": "Tailwind CSS", "level": 86 },
+        { "name": "HTML/CSS", "level": 90 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "Node.js", "level": 64 },
+        { "name": "REST API Integration", "level": 84 }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        { "name": "Supabase", "level": 78 },
+        { "name": "MySQL", "level": 68 }
+      ]
+    },
+    {
+      "category": "Deployment",
+      "items": [
+        { "name": "Vercel", "level": 82 },
+        { "name": "Git/GitHub", "level": 80 }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology (Computer Science)",
+      "institution": "Maharshi Dayanand University",
+      "period": "2020 – 2024",
+      "description": "Foundation in software engineering, programming fundamentals, and web systems.",
+      "icon": "🎓"
+    }
+  ],
+  "certifications": [],
+  "contact": {
+    "greeting": "Let’s build something impactful.",
+    "message": "Open to frontend opportunities where product quality, maintainability, and performance directly support business goals.",
+    "links": [
+      { "icon": "💼", "text": "LinkedIn", "url": "https://www.linkedin.com/in/rajnish-1a274320b" },
+      { "icon": "🐙", "text": "GitHub", "url": "https://github.com/RajnishYadav007" },
+      { "icon": "✉️", "text": "Email", "url": "mailto:yadavrajnish181@gmail.com" }
+    ]
+  }
+}
