@@ -1,0 +1,88 @@
+{
+  "personal": {
+    "name": "Rajnish Yadav",
+    "title": "React Developer | Frontend Engineer",
+    "taglines": [
+      "Building scalable web applications",
+      "Performance-driven UI systems",
+      "API-integrated solutions"
+    ],
+    "summary": "React-focused frontend engineer with production experience delivering business-facing hotel POS and e-commerce applications. Strong in component architecture, API integration, and deployment workflows.",
+    "location": "Faridabad, Haryana, India",
+    "email": "yadavrajnish181@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rajnish-1a274320b",
+    "github": "https://github.com/RajnishYadav007"
+  },
+  "aboutStats": [
+    { "label": "Experience", "value": "2+ Years Experience" },
+    { "label": "Production Projects", "value": "2 Production Projects" },
+    { "label": "Specialization", "value": "React + API Specialist" }
+  ],
+  "experience": [
+    {
+      "company": "Genkaix",
+      "context": "Hotel POS System",
+      "period": "2025 • 3 month internship",
+      "achievements": [
+        "Built order, billing, and admin modules for a production POS frontend",
+        "Integrated REST APIs and Supabase-backed workflows",
+        "Improved responsiveness for staff-facing tablet usage"
+      ],
+      "impact": "Supported faster order handling and clearer billing operations in restaurant workflows.",
+      "tech": ["React", "Tailwind", "REST API", "Supabase", "Vercel"]
+    },
+    {
+      "company": "NullClass Pvt Ltd",
+      "context": "Frontend Development",
+      "period": "Oct 2022 – Mar 2023",
+      "achievements": [
+        "Developed reusable React components for internal product modules",
+        "Integrated API data flows into responsive user interfaces",
+        "Collaborated in GitHub-based review and delivery process"
+      ],
+      "impact": "Improved maintainability and release confidence through reusable UI patterns.",
+      "tech": ["React", "JavaScript", "REST API", "GitHub", "CSS"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tasty Station",
+      "impact": "Production hotel POS frontend with operational dashboards and billing workflows.",
+      "cta": "View Case Study",
+      "tech": ["React", "Tailwind", "Supabase", "REST API", "Vercel"],
+      "url": "https://tasty-station-pos.vercel.app/"
+    },
+    {
+      "name": "SHREEJEE",
+      "impact": "Performance-oriented e-commerce frontend with conversion-focused shopping flow.",
+      "cta": "View Case Study",
+      "tech": ["React", "Tailwind", "REST API", "Vercel"],
+      "url": "https://shreejeegavya.vercel.app/"
+    }
+  ],
+  "skills": {
+    "Frontend": [
+      { "name": "React.js", "level": 92 },
+      { "name": "JavaScript (ES6+)", "level": 88 },
+      { "name": "HTML/CSS", "level": 90 },
+      { "name": "Tailwind CSS", "level": 86 }
+    ],
+    "Backend": [
+      { "name": "Node.js", "level": 64 },
+      { "name": "REST API Integration", "level": 84 }
+    ],
+    "Database": [
+      { "name": "MySQL", "level": 68 },
+      { "name": "Supabase", "level": 78 }
+    ],
+    "Deployment": [
+      { "name": "Vercel", "level": 82 },
+      { "name": "GitHub CI Workflow", "level": 72 }
+    ]
+  },
+  "education": {
+    "degree": "Bachelor of Technology (Computer Science)",
+    "institution": "Maharshi Dayanand University",
+    "period": "2020 – 2024"
+  }
+}
