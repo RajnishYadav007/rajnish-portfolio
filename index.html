@@ -2,12 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rajnish-portfolio</title>
+    <meta name="description" content="Rajnish Yadav — React Developer and Frontend Engineer building production-ready web applications with scalable UI systems and API-integrated solutions." />
+    <meta name="keywords" content="Rajnish Yadav, React Developer, Frontend Engineer, Three.js Portfolio, UI Engineer, API Integration" />
+    <meta name="author" content="Rajnish Yadav" />
+    <meta property="og:title" content="Rajnish Yadav | React Developer Portfolio" />
+    <meta property="og:description" content="Professional 3D portfolio focused on production-ready React engineering and measurable business impact." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Rajnish Yadav | React Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <a href="#content" class="skip-link">Skip to content</a>
+    <div id="app" class="app-shell">
+      <canvas id="webgl-canvas" aria-label="3D portfolio scene" role="img"></canvas>
+      <aside class="progress-nav" aria-label="Scroll progress and section navigator">
+        <div class="progress-track"><span id="progress-bar"></span></div>
+        <ul id="section-labels"></ul>
+      </aside>
+
+      <main id="content" class="content" aria-live="polite">
+        <section id="hero" class="zone hero-zone" data-zone="hero">
+          <p class="zone-kicker">Available for frontend roles</p>
+          <h1 id="name-title">Rajnish Yadav</h1>
+          <h2 id="role-title">React Developer | Frontend Engineer</h2>
+          <p id="rotating-tagline" class="rotating-tagline">Building scalable web applications</p>
+        </section>
+
+        <section id="about" class="zone" data-zone="about">
+          <h3>About</h3>
+          <p id="about-summary"></p>
+          <div id="about-stats" class="glass-grid"></div>
+        </section>
+
+        <section id="experience" class="zone" data-zone="experience">
+          <h3>Experience</h3>
+          <div id="experience-towers" class="experience-grid" aria-label="Company achievements"></div>
+        </section>
+
+        <section id="projects" class="zone" data-zone="projects">
+          <h3>Project Impact</h3>
+          <div id="project-cards" class="project-grid"></div>
+        </section>
+
+        <section id="skills" class="zone" data-zone="skills">
+          <h3>Skills</h3>
+          <div id="skill-panels" class="skill-grid"></div>
+        </section>
+
+        <section id="education" class="zone" data-zone="education">
+          <h3>Education</h3>
+          <div id="education-panel" class="glass-panel"></div>
+        </section>
+
+        <section id="contact" class="zone" data-zone="contact">
+          <h3>Let's build something impactful.</h3>
+          <p class="contact-copy">Open to product-focused frontend opportunities where performance and usability are business-critical.</p>
+          <div class="contact-actions">
+            <a id="linkedin-btn" class="action-btn" target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile">LinkedIn</a>
+            <a id="github-btn" class="action-btn" target="_blank" rel="noreferrer" aria-label="Open GitHub profile">GitHub</a>
+            <a id="email-btn" class="action-btn secondary" aria-label="Send email">Email</a>
+          </div>
+        </section>
+      </main>
+
+      <section id="fallback" class="fallback hidden" aria-label="Static fallback portfolio"></section>
+    </div>
+
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
